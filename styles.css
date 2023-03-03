@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(login.jpg);
+    background-size:cover;
+    background-position:center;
+    background-color: rgb(246, 185, 222);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    font-weigth:bold;
+
+}
+.menu-bar{
+    background-color: rgb(88, 202, 42);
+    text-align: center;
+    font-weigth:bold;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    font-weigth:bold;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+    border-radius:11px;
+    font-weigth:bold;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-weigth:bold;
+}
+.active,.menu-bar ul li:hover{
+    background-color: rgb(153, 158, 167);
+}
